@@ -1,0 +1,7 @@
+WARNING on line 1 of test_sass_error.sass:
+This selector doesn't have any properties and will not be rendered.
+WARNING on line 3 of test_sass_error.sass:
+This selector doesn't have any properties and will not be rendered.
+Error: Invalid CSS after "asfd:sdf": expected selector, was ";"
+        on line 3 of test_sass_error.sass
+  Use --trace for backtrace.

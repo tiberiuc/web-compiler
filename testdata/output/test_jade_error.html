@@ -1,0 +1,20 @@
+
+/usr/local/lib/node_modules/jade/lib/runtime.js:202
+  throw err;
+        ^
+Error: /home/tibi/work/new_compiler/testdata/dir1/.__fakefile__.jade:2
+    1| doctype html
+  > 2|  html(lang="en")
+    3|    head
+    4|     title= pageTitle
+    5|     script(type='text/javascript').
+
+unexpected token "indent"
+    at Parser.parseExpr (/usr/local/lib/node_modules/jade/lib/parser.js:252:15)
+    at Parser.parse (/usr/local/lib/node_modules/jade/lib/parser.js:122:25)
+    at parse (/usr/local/lib/node_modules/jade/lib/jade.js:96:21)
+    at Object.exports.compile (/usr/local/lib/node_modules/jade/lib/jade.js:166:16)
+    at Socket.<anonymous> (/usr/local/lib/node_modules/jade/bin/jade.js:144:21)
+    at Socket.EventEmitter.emit (events.js:117:20)
+    at _stream_readable.js:920:16
+    at process._tickCallback (node.js:415:13)

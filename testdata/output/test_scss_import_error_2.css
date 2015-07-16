@@ -1,0 +1,4 @@
+Error: Invalid CSS after "    color:red;": expected "}", was ""
+        on line 3 of test_scss_error.scss
+        from line 3 of test_scss_import_error_2.scss
+  Use --trace for backtrace.
